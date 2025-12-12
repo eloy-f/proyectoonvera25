@@ -26,18 +26,18 @@ POST /api/login — Iniciar sesión
 
 Usuarios
 
-GET /usuarios/:id — Obtener datos
-PUT /usuarios/:id — Actualizar
+GET /usuarios/:id - Obtener datos
+PUT /usuarios/:id - Actualizar
 
 Películas
 
-GET /peliculas — Listar
-POST /peliculas — Crear
+GET /peliculas - Listar
+POST /peliculas - Crear
 
 Favoritos
 
-GET /favoritos/:id_usuario — Listar
-POST /favoritos — Agregar
+GET /favoritos/:id_usuario - Listar
+POST /favoritos - Agregar
 
 - Cómo ejecutar el proyecto
 
@@ -45,7 +45,7 @@ Instalar dependencias:
 npm install
 
 Configurar archivo .env (BD)
-Ejecutar servidor:
+Ejecutamos servidor:
 npm run dev
 
 - Tecnologías
