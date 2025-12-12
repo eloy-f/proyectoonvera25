@@ -49,7 +49,7 @@ POST /favoritos — Agregar
 Instalar dependencias:
 npm install
 
-Configurar archivo .env (BD y JWT)
+Configurar archivo .env (BD)
 Ejecutar servidor:
 npm run dev
 
