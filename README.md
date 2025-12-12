@@ -1,18 +1,13 @@
 API ONVERA
-
 Esta es una API que permite gestionar usuarios, películas, categorías, favoritos y recuperación de contraseña.
 El objetivo del proyecto es proporcionar un backend funcional para una aplicación de películas.
 
 - Alcance del Proyecto
 
-Registro e inicio de sesión de usuarios
-Gestión de películas y categorías
-Guardar y eliminar favoritos
-
-Solicitud de recuperación de contraseña
+inicio de sesión de usuarios
+Vista de gestión de películas y categorías
 
 Base de datos con relaciones entre usuarios, películas y categorías
-
 - Diagrama de Base de Datos
 
 Tablas principales:
@@ -26,8 +21,8 @@ recuperacion_contrasena
 - Endpoints Principales
 Autenticación
 
-POST /auth/register — Registrar usuario
-POST /auth/login — Iniciar sesión
+POST /api/register — Registrar usuario
+POST /api/login — Iniciar sesión
 
 Usuarios
 
@@ -56,4 +51,4 @@ npm run dev
 - Tecnologías
 Node.js
 Express
-MySQL
+Postgres
